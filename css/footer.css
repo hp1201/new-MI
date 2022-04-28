@@ -1,0 +1,165 @@
+.footer {
+  width: 100%;
+  background-color: #fff;
+}
+.footer .footer-wrap {
+  width: 1226px;
+  margin: 0 auto;
+}
+.footer .footer-wrap .service {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  padding: 27px 0;
+  border-bottom: solid 1px #e0e0e0;
+}
+.footer .footer-wrap .service > ul > li {
+  list-style-type: none;
+  float: left;
+  width: 19.8%;
+  border-right: solid 1px #e0e0e0;
+  text-align: center;
+}
+.footer .footer-wrap .service > ul > li:nth-last-child(1) {
+  border-right: none;
+}
+.footer .footer-wrap .service > ul > li a {
+  text-decoration: none;
+  color: #616161;
+  transition: 0.2s;
+}
+.footer .footer-wrap .service > ul > li a:hover {
+  color: #ff6700;
+}
+.footer .footer-wrap .service > ul > li a i {
+  font-size: 24px;
+  margin-right: 6px;
+  position: relative;
+  top: 3px;
+}
+.footer .footer-wrap .link {
+  width: 100%;
+  height: 150px;
+  padding: 40px 0;
+}
+.footer .footer-wrap .link > ul {
+  width: 160px;
+  float: left;
+  text-align: left;
+}
+.footer .footer-wrap .link > ul li {
+  list-style-type: none;
+  height: 18px;
+  margin-top: 10px;
+}
+.footer .footer-wrap .link > ul li:first-child {
+  font-size: 14px;
+  height: 17px;
+  color: #424242;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+.footer .footer-wrap .link > ul li a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 12px;
+}
+.footer .footer-wrap .link > ul li a:hover {
+  color: #ff6700;
+}
+.footer .footer-wrap .link .contact {
+  width: 251px;
+  height: 111px;
+  border-left: solid 1px #e0e0e0;
+  float: right;
+  text-align: center;
+}
+.footer .footer-wrap .link .contact .tel {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  color: #ff6700;
+}
+.footer .footer-wrap .link .contact .time1 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #616161;
+}
+.footer .footer-wrap .link .contact .kefu {
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  height: 30px;
+  line-height: 28px;
+  border: solid 1px #ff6700;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #ff6700;
+  transition: 0.4s;
+  text-align: center;
+  font-size: 12px;
+}
+.footer .footer-wrap .link .contact .kefu:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+.footer .footer-wrap .link .contact .guangzhu {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #616161;
+}
+.footer .footer-wrap .link .contact .guangzhu i {
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+.footer .footer-wrap .link .contact .guangzhu i:hover {
+  color: #ff6700;
+}
+.footer .footer-wrap .link .contact .guangzhu i:first-child {
+  margin-right: 5px;
+}
+.footer .footer-wrap .link .contact .guangzhu i:last-child {
+  font-size: 22px;
+  top: 4px;
+}
+.footer .footer-wrap .inof {
+  width: 100%;
+  height: 232px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  clear: both;
+}
+.footer .footer-wrap .inof a {
+  color: #757575;
+  text-decoration: none;
+}
+.footer .footer-wrap .inof a:hover {
+  color: #ff6700;
+}
+.footer .footer-wrap .inof .p1 {
+  margin: 28px 0 14px;
+  height: 22px;
+}
+.footer .footer-wrap .inof .p1 > span {
+  margin: 0 3.5px;
+}
+.footer .footer-wrap .inof .p2 {
+  margin: 14px 0;
+}
+.footer .footer-wrap .inof .p3 {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-wrap .zhufu {
+  width: 100%;
+  height: 50px;
+  font-family: 楷体;
+  font-size: 25px;
+  color: #afafaf;
+  text-align: center;
+  line-height: 50px;
+  padding-bottom: 20px;
+}

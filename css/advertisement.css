@@ -1,0 +1,76 @@
+.ad {
+  width: 100%;
+  height: 170px;
+  margin: 14px 0 26px;
+}
+.ad .wrap {
+  width: 1226px;
+  height: 170px;
+  margin: 0 auto;
+}
+.ad .wrap .ad-aside {
+  width: 228px;
+  height: 164px;
+  float: left;
+  padding: 3px;
+  background-color: #5f5750;
+}
+.ad .wrap .ad-aside ul .row::before,
+.ad .wrap .ad-aside ul .col::after {
+  content: "";
+  display: block;
+  background-color: #665e57;
+  position: absolute;
+}
+.ad .wrap .ad-aside ul .row::before {
+  width: 64px;
+  height: 1px;
+  bottom: 0;
+  left: 6px;
+}
+.ad .wrap .ad-aside ul .col::after {
+  width: 1px;
+  height: 70px;
+  right: 0;
+  top: 6px;
+}
+.ad .wrap .ad-aside ul li {
+  float: left;
+  width: 76px;
+  height: 82px;
+  text-align: center;
+  list-style-type: none;
+  opacity: 0.7;
+  font-size: 12px;
+  padding: 19px 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+  position: relative;
+}
+.ad .wrap .ad-aside ul li:hover {
+  opacity: 1;
+}
+.ad .wrap .ad-aside ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.ad .wrap .ad-aside ul li a i {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 100;
+}
+.ad .wrap .ad-img {
+  width: 316px;
+  height: 170px;
+  margin-left: 14.66px;
+  float: left;
+  background: red;
+  transition: 0.3s;
+}
+.ad .wrap .ad-img:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.ad .wrap .ad-img img {
+  width: 100%;
+}

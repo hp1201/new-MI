@@ -1,0 +1,98 @@
+.phone .phone-box-left:hover,
+.phone .items2:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+.phone .title {
+  color: #333;
+  font-size: 22px;
+  line-height: 58px;
+  font-weight: 200;
+  text-align: left;
+}
+.phone .all {
+  color: #424242;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.4s;
+  float: right;
+}
+.phone .all:hover {
+  color: #ff6700;
+}
+.phone .all i {
+  margin-left: 5px;
+  font-weight: 100;
+}
+.phone .phone-box-left {
+  width: 234px;
+  height: 614px;
+  background-color: red;
+  float: left;
+  transition: 0.2s linear;
+}
+.phone .phone-box-right {
+  width: 992px;
+  height: 614px;
+  float: right;
+}
+.phone .phone-box-right .items1 {
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+  margin-left: 14px;
+  text-align: center;
+}
+.phone .phone-box-right .items1 a {
+  text-decoration: none;
+}
+.phone .phone-box-right .items1 .name1,
+.phone .phone-box-right .items1 .desc1 {
+  width: 194px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.phone .phone-box-right .items1 .name1 {
+  height: 21px;
+  margin: 0 auto 3px;
+  font-size: 14px;
+  color: #212121;
+  text-decoration: none;
+}
+.phone .phone-box-right .items1 .desc1 {
+  height: 18px;
+  margin: 0 auto 12px;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+.phone .phone-box-right .items1 .price1 {
+  font-size: 14px;
+  color: #ff6700;
+}
+.phone .phone-box-right .items2 {
+  margin-bottom: 14px;
+  transition: 0.2s linear;
+}
+.phone .phone-box-right .items2 .goods-img {
+  width: 160px;
+  margin: 20px 0 18px;
+}
+.phone .phone-box-right .items2 .name2 {
+  width: 214px;
+  margin-bottom: 2px;
+  color: #333;
+}
+.phone .phone-box-right .items2 .desc2 {
+  width: 214px;
+  margin-bottom: 10px;
+}
+.phone .big-img {
+  border: none;
+}
+.phone .big-img img {
+  width: 100%;
+  height: 120px;
+  margin: 22px 0;
+}

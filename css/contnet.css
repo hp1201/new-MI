@@ -1,0 +1,36 @@
+@import url(../css/nav.css);
+@import url(../css/hearder.css);
+@import url(../css/banner.css);
+@import url(../css/advertisement.css);
+@import url(../css/flash.css);
+@import url(../css/phone.css);
+@import url(../css/ele.css);
+@import url(../css/video.css);
+@import url(../css/footer.css);
+
+/* 顺序 nav-hearder-banner-advertisement-flash-footer */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 210px;
+  padding: 4px 0 12px;
+  overflow: hidden;
+}
+.main .main-wrap {
+  width: 1226px;
+  margin: 0 auto;
+}
+.all {
+  color: #424242;
+  font-size: 16px;
+  float: right;
+  transition: all 0.4s;
+}
+.all:hover {
+  color: #ff6700;
+}
